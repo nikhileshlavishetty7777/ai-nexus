@@ -1,0 +1,682 @@
+2026-06-07 22:14:49.796 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 22:14:49.797 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 22:14:49.911 | ERROR    | database.database:init_db:54 - Database initialization error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-07 22:14:49.912 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 22:14:49.912 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 22:15:28.699 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 22:16:02.066 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 22:16:02.067 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 22:16:02.733 | INFO     | database.database:_seed_admin_user:97 - Admin user created: admin@ainexus.com
+2026-06-07 22:16:02.750 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 22:16:02.752 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 22:16:02.755 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 22:23:45.300 | INFO     | services.auth_service:register_user:80 - New user registered: nikhilesh123@gmail.com
+2026-06-07 22:24:01.631 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 22:24:01.632 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 22:24:01.642 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2e30c4b7d70> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 22:24:11.924 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 22:24:11.927 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 22:24:11.939 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2e30c67db50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 22:24:34.667 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 22:24:34.671 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 22:24:34.694 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2e30c67e750> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 22:25:27.542 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 22:25:27.545 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 22:25:27.555 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2e30c4b4830> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 22:29:37.177 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 22:29:37.177 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 22:29:37.194 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2e30c6a6390> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 22:42:54.245 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 22:43:42.010 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 22:43:42.011 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 22:43:42.683 | INFO     | database.database:_seed_admin_user:97 - Admin user created: admin@ainexus.com
+2026-06-07 22:43:42.692 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 22:43:42.693 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 22:43:42.695 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 22:45:00.590 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 22:45:35.995 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 22:45:35.996 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 22:45:36.884 | INFO     | database.database:_seed_admin_user:97 - Admin user created: admin@ainexus.com
+2026-06-07 22:45:36.908 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 22:45:36.909 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 22:45:36.909 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:07:39.861 | INFO     | services.auth_service:register_user:80 - New user registered: nikhilesh123@gmail.com
+2026-06-07 23:07:45.750 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 23:07:45.756 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 23:07:45.764 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x1e01a928a10> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 23:11:53.702 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:12:00.351 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:12:00.352 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:12:00.390 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:12:00.391 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:12:00.392 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:12:28.636 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 23:12:28.637 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 23:12:28.651 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x277b261d400> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 23:12:42.746 | ERROR    | services.ai_service:get_ai_response:170 - AI service error (AIProvider.OPENAI/gpt-4o-mini): OpenAI API key not configured
+2026-06-07 23:12:42.750 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-07 23:12:42.759 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x277b265da00> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 23:16:55.833 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:17:00.428 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:17:00.430 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:17:00.566 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:17:00.568 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:17:00.568 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:26:38.366 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:26:44.056 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:26:44.057 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:26:44.107 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:26:44.117 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:26:44.118 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:26:44.120 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:27:41.790 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:27:41.791 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:27:41.837 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:27:41.838 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:27:41.840 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:28:18.824 | ERROR    | routes.chats:stream_response:167 - Streaming error: 'async for' requires an object with __aiter__ method, got NoneType
+2026-06-07 23:28:18.847 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x18c7a69b4a0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-07 23:37:35.228 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:50:28.392 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:50:28.393 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:50:28.428 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:50:28.428 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:50:28.429 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:50:28.431 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:50:31.265 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:50:31.266 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:50:31.289 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:50:31.290 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:50:31.290 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:50:36.429 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:50:42.332 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:50:42.333 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:50:42.358 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:50:42.358 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:50:42.359 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-07 23:54:24.866 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-07 23:57:45.288 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-07 23:57:45.289 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-07 23:57:45.311 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-07 23:57:45.312 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-07 23:57:45.312 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 00:00:23.225 | ERROR    | routes.chats:stream_response:169 - Streaming error: No AI response returned. Provider=AIProvider.OPENAI, Model=gpt-4o-mini
+2026-06-08 00:00:23.233 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x201f82023c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 00:04:13.696 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:29:13.231 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:29:13.235 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:29:13.366 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:29:13.368 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:29:13.369 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:29:13.372 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:29:21.275 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:29:21.276 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:29:21.372 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:29:21.374 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:29:21.378 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:29:26.496 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:29:37.704 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:29:37.705 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:29:37.743 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:29:37.744 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:29:37.745 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:33:07.414 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:33:16.812 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:33:16.812 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:33:16.884 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:33:16.886 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:33:16.886 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:33:16.888 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:33:31.862 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:33:31.864 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:33:31.895 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:33:31.899 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:33:31.901 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:35:21.455 | ERROR    | services.ai_service:get_ai_response:183 - AI service error (aiprovider.openai/gpt-4o-mini): OpenAI API key not configured
+2026-06-08 12:35:21.458 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-08 12:35:21.472 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2a538233800> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 12:37:07.496 | ERROR    | services.ai_service:get_ai_response:183 - AI service error (aiprovider.openai/gpt-4o-mini): OpenAI API key not configured
+2026-06-08 12:37:07.497 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-08 12:37:07.528 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2a5383edbb0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 12:43:27.808 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:44:38.120 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:44:38.121 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:44:38.155 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:44:38.156 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:44:38.156 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:44:41.112 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:44:50.161 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:44:50.161 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:44:50.197 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:44:50.200 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:44:50.201 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:45:23.551 | ERROR    | services.ai_service:get_ai_response:183 - AI service error (aiprovider.openai/gpt-4o-mini): OpenAI API key not configured
+2026-06-08 12:45:23.553 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-08 12:45:23.563 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x1717ed9f530> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 12:48:58.776 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:49:23.958 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:49:23.959 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:49:24.002 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:49:24.004 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 12:49:24.005 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:49:49.999 | ERROR    | services.ai_service:get_ai_response:183 - AI service error (aiprovider.openai/gpt-4o-mini): OpenAI API key not configured
+2026-06-08 12:49:50.000 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-08 12:49:50.008 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x25c08ff7260> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 12:52:17.369 | ERROR    | services.ai_service:get_ai_response:183 - AI service error (aiprovider.openai/gpt-4o-mini): OpenAI API key not configured
+2026-06-08 12:52:17.370 | ERROR    | routes.chats:stream_response:167 - Streaming error: OpenAI API key not configured
+2026-06-08 12:52:17.384 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x25c091c8b90> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 12:53:35.774 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 12:53:40.781 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:53:40.781 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:53:40.817 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:53:40.818 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 12:53:40.818 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:53:40.819 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 12:53:46.946 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:53:46.947 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:53:46.979 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:53:46.979 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 12:53:46.980 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 12:54:02.232 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 12:54:07.826 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 12:54:07.827 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 12:54:07.863 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 12:54:07.864 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 12:54:07.864 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:00:06.806 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:02:50.684 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:02:50.685 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:02:50.717 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:02:50.718 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:02:50.718 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:08:55.246 | ERROR    | routes.chats:stream_response:167 - Streaming error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-06-08 13:08:55.300 | ERROR    | main:global_exception_handler:67 - Unhandled exception: Instance <User at 0x1cef6538290> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:12:00.113 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:12:13.486 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:12:13.487 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:12:13.518 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:12:13.519 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:12:13.520 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:12:31.489 | ERROR    | routes.chats:stream_response:167 - Streaming error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-06-08 13:12:31.529 | ERROR    | main:global_exception_handler:67 - Unhandled exception: Instance <User at 0x1f7fa82aa80> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:13:24.160 | ERROR    | routes.chats:stream_response:167 - Streaming error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-06-08 13:13:24.173 | ERROR    | main:global_exception_handler:67 - Unhandled exception: Instance <User at 0x1f7fb6bdc10> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:25:34.289 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:25:41.902 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:25:41.903 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:25:42.010 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:25:42.012 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:25:42.017 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:25:42.021 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:25:50.062 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:25:50.066 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:25:50.132 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:25:50.135 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:25:50.136 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:25:50.137 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:25:58.359 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:25:58.360 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:25:58.420 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:25:58.422 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:25:58.423 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:26:20.024 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:26:25.108 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:26:25.109 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:26:25.138 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:26:25.139 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:26:25.140 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:26:46.570 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:26:54.718 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:26:54.719 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:26:54.788 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:26:54.793 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:26:54.794 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:27:01.851 | ERROR    | routes.chats:stream_response:167 - Streaming error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-06-08 13:27:01.869 | ERROR    | main:global_exception_handler:67 - Unhandled exception: Instance <User at 0x1f672562120> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:27:45.194 | ERROR    | routes.chats:stream_response:167 - Streaming error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-06-08 13:27:45.209 | ERROR    | main:global_exception_handler:67 - Unhandled exception: Instance <User at 0x1f674488830> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:31:47.463 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:31:58.359 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:31:58.360 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:31:58.424 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:31:58.427 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:31:58.428 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:40:34.601 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:40:45.658 | INFO     | main:startup_event:93 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:40:45.658 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:40:45.689 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:40:45.690 | INFO     | main:startup_event:95 - ✅ Database initialized
+2026-06-08 13:40:45.690 | INFO     | main:startup_event:96 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:42:56.983 | ERROR    | routes.chats:stream_response:167 - Streaming error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 13:42:57.025 | ERROR    | main:global_exception_handler:67 - Unhandled exception: Instance <User at 0x2a132e9d4f0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:45:17.654 | INFO     | main:shutdown_event:101 - 👋 Shutting down AI Nexus
+2026-06-08 13:45:28.243 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:45:28.244 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:45:28.304 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:45:28.307 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 13:45:28.308 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:48:31.798 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 13:48:37.633 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:48:37.634 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:48:37.666 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:48:37.666 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 13:48:37.666 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:48:37.669 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 13:48:47.874 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 13:48:47.875 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 13:48:47.907 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 13:48:47.908 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 13:48:47.908 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 13:51:34.905 | ERROR    | routes.chats:stream_response:167 - Streaming error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 13:51:34.925 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x11f396b4230> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 13:57:40.366 | INFO     | services.auth_service:register_user:80 - New user registered: nikhil@example.com
+2026-06-08 13:59:57.717 | ERROR    | routes.chats:stream_response:167 - Streaming error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 13:59:57.740 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x11f3b5fe180> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 14:00:51.551 | ERROR    | services.ai_service:get_ai_response:202 - AI service error: Unknown provider: AIProvider.GEMINI
+2026-06-08 14:04:22.599 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 14:07:46.425 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 14:07:46.425 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 14:07:46.468 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 14:07:46.469 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 14:07:46.469 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 14:07:46.471 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 14:07:49.941 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 14:07:49.941 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 14:07:49.964 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 14:07:49.966 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 14:07:49.966 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 14:07:49.968 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 14:07:55.626 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 14:07:55.626 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 14:07:55.652 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 14:07:55.653 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 14:07:55.654 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 14:08:40.723 | ERROR    | routes.chats:stream_response:167 - Streaming error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 14:08:40.738 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x168b68d7980> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 14:10:36.623 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 14:12:56.753 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 14:12:56.754 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 14:12:56.799 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 14:12:56.800 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 14:12:56.800 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 14:14:12.888 | ERROR    | services.ai_service:get_ai_response:187 - AI service error: Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 14:14:12.890 | ERROR    | routes.chats:stream_response:167 - Streaming error: Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 14:14:12.899 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x1e0807fcd40> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 17:59:36.933 | ERROR    | services.ai_service:get_ai_response:187 - AI service error: Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 17:59:36.934 | ERROR    | routes.chats:stream_response:167 - Streaming error: Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 17:59:36.961 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x1e08276a270> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 18:07:53.252 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:08:05.217 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:08:05.218 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:08:05.256 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:08:05.257 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:08:05.258 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:12:14.599 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:12:33.674 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:12:33.675 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:12:33.715 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:12:33.717 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:12:33.717 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:13:00.149 | ERROR    | services.ai_service:get_ai_response:205 - AI service error: Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 18:13:00.150 | ERROR    | routes.chats:stream_response:167 - Streaming error: Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-06-08 18:13:00.179 | ERROR    | main:global_exception_handler:64 - Unhandled exception: Instance <User at 0x2c4025dc800> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-06-08 18:17:20.099 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:17:33.790 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:17:33.792 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:17:33.884 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:17:33.886 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:17:33.888 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:19:42.957 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:19:54.917 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:19:54.919 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:19:54.991 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:19:54.994 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:19:54.994 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:24:01.202 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:27:22.584 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:27:22.585 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:27:22.624 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:27:22.626 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:27:22.627 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:30:00.985 | ERROR    | services.ai_service:get_ai_response:205 - AI service error: Gemini error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+Please retry in 58.356256002s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2026-06-08 18:30:00.986 | ERROR    | routes.chats:stream_response:199 - Streaming error: Gemini error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+Please retry in 58.356256002s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2026-06-08 18:41:11.397 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:41:21.929 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:41:21.929 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:41:22.001 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:41:22.003 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:41:22.004 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:45:52.482 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:46:03.776 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:46:03.778 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:46:03.854 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:46:03.856 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:46:03.857 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:46:57.751 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:47:07.219 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:47:07.221 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:47:07.288 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:47:07.290 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:47:07.291 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:47:29.045 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:47:36.796 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:47:36.797 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:47:36.830 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:47:36.831 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:47:36.832 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:49:13.300 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:49:24.001 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:49:24.002 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:49:24.038 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:49:24.039 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:49:24.041 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:50:41.279 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:56:13.316 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:56:13.317 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:56:13.351 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:56:13.353 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:56:13.353 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 18:56:43.477 | ERROR    | routes.chats:stream_response:199 - Streaming error: get_ai_response() got an unexpected keyword argument 'stream'
+2026-06-08 18:58:13.675 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 18:58:24.390 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 18:58:24.392 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 18:58:24.470 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 18:58:24.472 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 18:58:24.473 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:00:52.788 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:02:48.860 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:02:48.861 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:02:48.941 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:02:48.943 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:02:48.944 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:03:04.849 | ERROR    | services.ai_service:get_ai_response:194 - AI service error: Gemini error: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}
+2026-06-08 19:03:04.851 | ERROR    | routes.chats:stream_response:199 - Streaming error: Gemini error: 401 UNAUTHENTICATED. {'error': {'code': 401, 'message': 'Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.', 'status': 'UNAUTHENTICATED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'ACCESS_TOKEN_TYPE_UNSUPPORTED', 'metadata': {'method': 'google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent', 'service': 'generativelanguage.googleapis.com'}}]}}
+2026-06-08 19:06:37.012 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:06:44.849 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:06:44.850 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:06:44.888 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:06:44.889 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:06:44.889 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:07:12.449 | ERROR    | routes.chats:stream_response:199 - Streaming error: 'async for' requires an object with __aiter__ method, got dict
+2026-06-08 19:11:39.729 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:12:40.996 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:12:40.997 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:12:41.066 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:12:41.070 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:12:41.070 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:13:52.498 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:13:58.043 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:13:58.044 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:13:58.078 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:13:58.079 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:13:58.079 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:13:58.081 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:14:05.688 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:14:05.689 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:14:05.726 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:14:05.727 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:14:05.727 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:14:16.491 | ERROR    | routes.chats:stream_response:199 - Streaming error: get_ai_response() got an unexpected keyword argument 'stream'
+2026-06-08 19:15:52.133 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:15:58.858 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:15:58.860 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:15:58.952 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:15:58.953 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:15:58.954 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:20:27.192 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:37:31.547 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:37:31.549 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:37:31.608 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:37:31.610 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:37:31.610 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:38:38.045 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:38:43.641 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:38:43.642 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:38:43.674 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:38:43.675 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:38:43.676 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:38:43.677 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:38:50.586 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:38:50.587 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:38:50.622 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:38:50.624 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:38:50.625 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:39:18.330 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:39:43.184 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:39:43.185 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:39:43.251 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:39:43.258 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:39:43.259 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:39:43.262 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:39:50.385 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:39:50.386 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:39:50.415 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:39:50.417 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:39:50.418 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:39:52.264 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:39:59.681 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:39:59.684 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:39:59.714 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:39:59.715 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:39:59.717 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:40:51.241 | ERROR    | routes.chats:stream_response:199 - Streaming error: get_ai_response() got an unexpected keyword argument 'stream'
+2026-06-08 19:40:55.269 | ERROR    | routes.chats:stream_response:199 - Streaming error: get_ai_response() got an unexpected keyword argument 'stream'
+2026-06-08 19:43:18.978 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:43:27.449 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:43:27.450 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:43:27.552 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:43:27.554 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:43:27.555 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:44:00.255 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:44:05.834 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:44:05.835 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:44:05.863 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:44:05.864 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:44:05.865 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:44:05.866 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:44:12.987 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:44:12.988 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:44:13.021 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:44:13.022 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:44:13.022 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:44:23.688 | ERROR    | routes.chats:stream_response:198 - Streaming error: name 'messages' is not defined
+2026-06-08 19:49:08.179 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:49:14.694 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:49:14.695 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:49:14.726 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:49:14.727 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:49:14.727 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:49:17.464 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:49:24.353 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:49:24.356 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:49:24.392 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:49:24.393 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:49:24.393 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:53:52.107 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:53:57.360 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:53:57.360 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:53:57.397 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:53:57.410 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:53:57.411 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:53:57.412 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 19:54:02.737 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 19:54:02.737 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 19:54:02.767 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 19:54:02.769 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 19:54:02.769 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-08 19:54:21.536 | ERROR    | routes.chats:stream_response:172 - Streaming error: Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-08 20:15:04.480 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-08 20:15:19.527 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-08 20:15:19.528 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-08 20:15:19.624 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-08 20:15:19.628 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-08 20:15:19.629 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-09 12:14:32.002 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-09 12:14:32.003 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-09 12:14:32.154 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-09 12:14:32.155 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-09 12:14:32.157 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-09 12:33:04.358 | ERROR    | routes.chats:stream_response:172 - Streaming error: Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-09 12:33:24.567 | ERROR    | routes.chats:stream_response:172 - Streaming error: Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-09 12:53:46.909 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-09 13:03:24.264 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-09 13:03:24.265 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-09 13:03:24.295 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-09 13:03:24.296 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-09 13:03:24.297 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-09 13:03:40.862 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-09 13:03:46.719 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-09 13:03:46.719 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-09 13:03:46.754 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-09 13:03:46.754 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-09 13:03:46.756 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-09 13:04:42.647 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
+2026-06-09 13:04:48.521 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-09 13:04:48.521 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-09 13:04:48.552 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-09 13:04:48.553 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-09 13:04:48.553 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-09 13:25:58.186 | INFO     | main:startup_event:90 - 🚀 Starting AI Nexus v1.0.0
+2026-06-09 13:25:58.187 | INFO     | database.database:init_db:44 - Initializing database...
+2026-06-09 13:25:58.253 | INFO     | database.database:init_db:52 - Database initialized successfully
+2026-06-09 13:25:58.253 | INFO     | main:startup_event:92 - ✅ Database initialized
+2026-06-09 13:25:58.254 | INFO     | main:startup_event:93 - 📚 API docs: http://localhost:8000/api/docs
+2026-06-09 13:31:43.642 | ERROR    | routes.chats:stream_response:172 - Streaming error: Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-09 13:38:24.622 | ERROR    | routes.chats:stream_response:172 - Streaming error: Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-06-09 13:41:14.550 | INFO     | main:shutdown_event:98 - 👋 Shutting down AI Nexus
