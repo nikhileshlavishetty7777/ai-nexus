@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Database
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Logs
+backend/logs/
+*.log
+
+# Environment
+.env
+backend/.env
+frontend/.env
